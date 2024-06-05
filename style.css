@@ -209,3 +209,40 @@ footer a {
   margin: 0 2.5%;
   color: #8e8e8e;
 }
+
+/* responsividade */
+
+@media (max-width: 800px) {
+  .left {
+    display: none;
+  }
+
+  .right {
+    padding-left: 0;
+  }
+  
+  #container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 560px) {
+  #container {
+    width: 90%;
+  }
+  #container-signup {
+    width: 90%;
+  }
+
+  input[type="password"], input[type="text"], input[type="submit"] {
+    width: 85%;
+  }
+
+  .cta-button {
+    width: 85%;
+  }
+
+  .message {
+    margin: 10px 25px;
+  }
+}
